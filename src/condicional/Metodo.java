@@ -3,10 +3,24 @@ package condicional;
 
 public class Metodo {
 
-
-    public void mostrarVideo(String nomeMusica, String nomeCantor) {
-        System.out.println("Tocando a Musica "+nomeMusica+ "do cantor(a) "+nomeCantor);
+    public String fazerPipoca() {
+        int tempo=2;
+        int potencia = 200;
+        return "Fazendo pipoca";
     }
+
+    public String fazerCarneBovina(){
+        int tempo=20;
+        int potencia = 200;
+
+        return "Carne cozinhando daqui a "+tempo+" minutos está pronta";
+
+    }
+
+    public String aquecer(int tempo, int potencia){
+        return "Aquecendo sua comida";
+    }
+
 
 
 
